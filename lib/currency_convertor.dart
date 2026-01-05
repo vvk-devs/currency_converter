@@ -26,7 +26,7 @@ class _CurrencyConvertorMaterialPageState extends State<CurrencyHomePage>{
 
                 });
     }
-
+@override
 void dispose(){
   textEditingController.dispose();
   super.dispose();
